@@ -7,6 +7,8 @@
 using namespace std;
 
 double inputNumber(int& i);
+int inputIntNumber();
+bool isNumberNumeric();
 
 int main()
 {
@@ -32,7 +34,7 @@ int main()
 		bool o = 1;
 		while (o) {
 			o = 0;
-			cin >> k;
+			k = inputIntNumber();
 			switch (k) {
 			case 1: f = sinh(x); break;
 			case 2: f = pow(x, 2); break;
@@ -175,5 +177,28 @@ double inputNumber(int& i) {
 		cout << "Некорректный ввод! Повторите попытку: " << endl;
 		setlocale(LC_ALL, "eng");
 		i = 1;
+	}
+}
+int inputIntNumber()
+{
+	int number;
+	while (true)
+	{
+		cin >> number;
+		if (isNumberNumeric())
+			return number;
+		else
+			cout << "Некорректный ввод! Введите 1, 2 или 3: ";
+	}
+}
+bool isNumberNumeric()
+{
+	if (cin.get() == '\n')
+		return true;
+	else
+	{
+		cin.clear();
+		cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+		return false;
 	}
 }

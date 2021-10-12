@@ -1,0 +1,14 @@
+﻿"Лаба№2.exe" (Win32). Загружено "E:\OAiP\Лаба№2\Debug\Лаба№2.exe". Символы загружены.
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\ntdll.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel32.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\KernelBase.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcp140d.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\vcruntime140d.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\ucrtbased.dll". 
+Поток 0x2c7c завершился с кодом 0 (0x0).
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel.appcore.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcrt.dll". 
+"Лаба№2.exe" (Win32). Загружено "C:\Windows\SysWOW64\rpcrt4.dll". 
+Поток 0x3718 завершился с кодом 0 (0x0).
+Поток 0x1a68 завершился с кодом 0 (0x0).
+Программа "[16616] Лаба№2.exe" завершилась с кодом 0 (0x0).
